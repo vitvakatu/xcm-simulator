@@ -15,13 +15,13 @@ frame-system = { git = "https://github.com/paritytech/substrate", branch = "polk
 sp-io = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.10" }
 sp-std = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.10" }
 
-cumulus-primitives-core = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.10" }
-cumulus-pallet-xcmp-queue = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.10" }
-cumulus-pallet-dmp-queue = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.10" }
-cumulus-pallet-parachain-system = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.10" }
-parachain-info = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.10" }
-cumulus-primitives-parachain-inherent = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.10" }
-cumulus-test-relay-sproof-builder = { git = "https://github.com/paritytech/cumulus", branch = "polkadot-v0.9.10" }
+cumulus-primitives-core = { git = "https://github.com/purestake/cumulus", rev = "5053470650f19ab" }
+cumulus-pallet-xcmp-queue = { git = "https://github.com/purestake/cumulus", rev = "5053470650f19ab" }
+cumulus-pallet-dmp-queue = { git = "https://github.com/purestake/cumulus", rev = "5053470650f19ab" }
+cumulus-pallet-parachain-system = { git = "https://github.com/purestake/cumulus", rev = "5053470650f19ab" }
+parachain-info = { git = "https://github.com/purestake/cumulus", rev = "5053470650f19ab" }
+cumulus-primitives-parachain-inherent = { git = "https://github.com/purestake/cumulus", rev = "5053470650f19ab" }
+cumulus-test-relay-sproof-builder = { git = "https://github.com/purestake/cumulus", rev = "5053470650f19ab" }
 
 xcm = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.10" }
 xcm-executor = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.10" }

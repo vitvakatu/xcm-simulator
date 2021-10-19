@@ -922,7 +922,7 @@ dependencies = [
 [[package]]
 name = "cumulus-pallet-dmp-queue"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.10#fa116cfbfb470a8114fc02f9d2e3c0a5ab6c7193"
+source = "git+https://github.com/purestake/cumulus?rev=5053470650f19ab#5053470650f19ab4f30e37b4a4f3cf292a8e8fe9"
 dependencies = [
  "cumulus-primitives-core",
  "frame-support",
@@ -941,7 +941,7 @@ dependencies = [
 [[package]]
 name = "cumulus-pallet-parachain-system"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.10#fa116cfbfb470a8114fc02f9d2e3c0a5ab6c7193"
+source = "git+https://github.com/purestake/cumulus?rev=5053470650f19ab#5053470650f19ab4f30e37b4a4f3cf292a8e8fe9"
 dependencies = [
  "cumulus-pallet-parachain-system-proc-macro",
  "cumulus-primitives-core",
@@ -969,7 +969,7 @@ dependencies = [
 [[package]]
 name = "cumulus-pallet-parachain-system-proc-macro"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.10#fa116cfbfb470a8114fc02f9d2e3c0a5ab6c7193"
+source = "git+https://github.com/purestake/cumulus?rev=5053470650f19ab#5053470650f19ab4f30e37b4a4f3cf292a8e8fe9"
 dependencies = [
  "proc-macro-crate 1.0.0",
  "proc-macro2",
@@ -980,7 +980,7 @@ dependencies = [
 [[package]]
 name = "cumulus-pallet-xcm"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.10#fa116cfbfb470a8114fc02f9d2e3c0a5ab6c7193"
+source = "git+https://github.com/purestake/cumulus?rev=5053470650f19ab#5053470650f19ab4f30e37b4a4f3cf292a8e8fe9"
 dependencies = [
  "cumulus-primitives-core",
  "frame-support",
@@ -996,7 +996,7 @@ dependencies = [
 [[package]]
 name = "cumulus-pallet-xcmp-queue"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.10#fa116cfbfb470a8114fc02f9d2e3c0a5ab6c7193"
+source = "git+https://github.com/purestake/cumulus?rev=5053470650f19ab#5053470650f19ab4f30e37b4a4f3cf292a8e8fe9"
 dependencies = [
  "cumulus-primitives-core",
  "frame-support",
@@ -1014,7 +1014,7 @@ dependencies = [
 [[package]]
 name = "cumulus-primitives-core"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.10#fa116cfbfb470a8114fc02f9d2e3c0a5ab6c7193"
+source = "git+https://github.com/purestake/cumulus?rev=5053470650f19ab#5053470650f19ab4f30e37b4a4f3cf292a8e8fe9"
 dependencies = [
  "frame-support",
  "impl-trait-for-tuples",
@@ -1032,7 +1032,7 @@ dependencies = [
 [[package]]
 name = "cumulus-primitives-parachain-inherent"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.10#fa116cfbfb470a8114fc02f9d2e3c0a5ab6c7193"
+source = "git+https://github.com/purestake/cumulus?rev=5053470650f19ab#5053470650f19ab4f30e37b4a4f3cf292a8e8fe9"
 dependencies = [
  "async-trait",
  "cumulus-primitives-core",
@@ -1053,7 +1053,7 @@ dependencies = [
 [[package]]
 name = "cumulus-primitives-utility"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.10#fa116cfbfb470a8114fc02f9d2e3c0a5ab6c7193"
+source = "git+https://github.com/purestake/cumulus?rev=5053470650f19ab#5053470650f19ab4f30e37b4a4f3cf292a8e8fe9"
 dependencies = [
  "cumulus-primitives-core",
  "frame-support",
@@ -1071,7 +1071,7 @@ dependencies = [
 [[package]]
 name = "cumulus-test-relay-sproof-builder"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.10#fa116cfbfb470a8114fc02f9d2e3c0a5ab6c7193"
+source = "git+https://github.com/purestake/cumulus?rev=5053470650f19ab#5053470650f19ab4f30e37b4a4f3cf292a8e8fe9"
 dependencies = [
  "cumulus-primitives-core",
  "parity-scale-codec",
@@ -4245,7 +4245,7 @@ dependencies = [
 [[package]]
 name = "parachain-info"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.10#fa116cfbfb470a8114fc02f9d2e3c0a5ab6c7193"
+source = "git+https://github.com/purestake/cumulus?rev=5053470650f19ab#5053470650f19ab4f30e37b4a4f3cf292a8e8fe9"
 dependencies = [
  "cumulus-primitives-core",
  "frame-support",
